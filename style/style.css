@@ -19,12 +19,18 @@ p.firstparagraph {
 }
 
 img.firstpicture {
-	 height: 200px;
+	height: 180px;
  	width: auto;
 }
 
-img.clicklinks {
-	height: 15px
+src.clicklinks {
+	height: 45px
 	width: auto;
 
+}
+
+table.projects {
+	border-style: solid;
+	border-width: bold;
+	border-color: black;
 }

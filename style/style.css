@@ -13,10 +13,17 @@ p.firstparagraph {
 
 }
 
-#skills,#education,#workexperience {
+#skills,#education,#workexperience,#build {
 	font-family: 'Roboto Condensed', sans-serif;
 	text-align: center;
 	text-decoration:underline; 
+	list-style: none;
+}
+
+#listskills,#listeducation,#listworkexperience,#projects {
+	font-family: 'Roboto Condensed', sans-serif;
+	text-align: center; 
+	list-style: none;
 }
 
 img.firstpicture {

@@ -13,7 +13,7 @@ p.firstparagraph {
 
 }
 
-#skills,#education,#workexperience,#build {
+#skills,#education,#workexperience,#build,#contact {
 	font-family: 'Roboto Condensed', sans-serif;
 	text-align: center;
 	text-decoration:underline; 
@@ -24,6 +24,10 @@ p.firstparagraph {
 	font-family: 'Roboto Condensed', sans-serif;
 	text-align: center; 
 	list-style: none;
+}
+
+form {
+	text-align: center;
 }
 
 img.firstpicture {

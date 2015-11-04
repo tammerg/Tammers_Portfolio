@@ -6,6 +6,14 @@ h1.headline {
 	font-family: 'Slabo 27px', serif;
 }
 
+p.firstparagraph {
+	font-weight: bold;
+	font-family: 'Poiret One', cursive;
+	font-size: 18px
+
+}
+
 #skills,#education,#workexperience {
 	font-family: 'Roboto Condensed', sans-serif;
+	text-align: center;
 }

@@ -1,0 +1,11 @@
+body {
+    background-color: lightblue;
+}
+
+h1.headline {
+	font-family: 'Slabo 27px', serif;
+}
+
+#skills,#education,#workexperience {
+	font-family: 'Roboto Condensed', sans-serif;
+}

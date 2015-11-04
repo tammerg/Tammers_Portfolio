@@ -16,6 +16,7 @@ p.firstparagraph {
 #skills,#education,#workexperience {
 	font-family: 'Roboto Condensed', sans-serif;
 	text-align: center;
+	text-decoration:underline; 
 }
 
 img.firstpicture {

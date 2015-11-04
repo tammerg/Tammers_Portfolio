@@ -18,3 +18,13 @@ p.firstparagraph {
 	text-align: center;
 }
 
+img.firstpicture {
+	 height: 200px;
+ 	width: auto;
+}
+
+img.clicklinks {
+	height: 15px
+	width: auto;
+
+}

@@ -4,6 +4,7 @@ body {
 
 h1.headline {
 	font-family: 'Slabo 27px', serif;
+	text-align: center;
 }
 
 p.firstparagraph {

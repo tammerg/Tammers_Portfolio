@@ -12,7 +12,6 @@ p.firstparagraph {
 	font-weight: bold;
 	font-family: 'Poiret One', cursive;
 	font-size: 18px
-
 }
 
 div.center {
@@ -20,6 +19,15 @@ div.center {
     width: 17.52%;
     border:3px solid #164e5e;
 }
+
+ .button { 
+ 	font-size: 44px; 
+ 	color: rgb(255, 255, 255); 
+ 	background: rgb(0, 0, 0) none repeat scroll 0% 0%; 
+ 	width: 64px; 
+ 	height: 58px; 
+ 	border-radius: 13px; 
+ 	border-style: none;} 
 
 
 #skills {

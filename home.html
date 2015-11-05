@@ -4,6 +4,7 @@
 	<title> Tammer's Portfolio Page</title>
 	<link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"> 
 	<link rel="stylesheet" type="text/css" href="style/style.css">
 </head>
 <body>
@@ -14,12 +15,13 @@
 	<div class="center">
 			<img class="firspicture" src="images/me.png">	 
 		<ul>
-			<a href="https://github.com/tammerg" target="_blank" title="Github">
-			 <img class="clicklinks" src="images/octocat.png">
-			<a href="https://www.linkedin.com/pub/tammer-galal/108/259/5a7" target="_blank" title="LinkedIn">
-			 <img class="clicklinks" src="images/linkedin.png">			
-			<a href="http://stackoverflow.com/users/5451564/tammerg?tab=profile" target="_blank" title="LinkedIn">
-			 <img class="clicklinks" src="images/stackoverflow.png">
+			<button class="button" onclick='location.href="https://twitter.com/tammergalal"'>
+    			<i class="fa fa-twitter"></i>
+			</button> 
+			<button class="button" onclick='location.href="https://github.com/tammerg"'>
+    			<i class="fa fa-git"></i>
+			<button class="button" onclick='location.href="https://www.linkedin.com/pub/tammer-galal/108/259/5a7"'>
+    			<i class="fa fa-linkedin"></i>
 			</a>		
 		</ul>
 	</div>
@@ -52,8 +54,8 @@
 				<li>Medical Sciences</li>
 			</ul>		
 			</td>
-
-			<td>
+        <div></div>
+			<td class="SkillsEducationExperience">
 			<h3 id="skills">
 				<strong>Skills</strong>
 			</h3>
@@ -119,7 +121,8 @@
 		  		<input type="text" name="Email">
 			 <br>
 			  	<input type="submit" value="Submit">
-			</form>		
+			</form>	
+		</div>		
 		</tr>
 	</table>					
 </body>

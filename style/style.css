@@ -13,17 +13,33 @@ p.firstparagraph {
 
 }
 
-#skills,#education,#workexperience,#build,#contact {
+#skills {
+	font-family: 'Roboto Condensed', sans-serif;
+	text-align: center;
+	text-decoration:underline; 
+	list-style: none;
+	padding-right: 2px;
+}
+
+#education,#workexperience,#build,#contact {
 	font-family: 'Roboto Condensed', sans-serif;
 	text-align: center;
 	text-decoration:underline; 
 	list-style: none;
 }
 
-#listskills,#listeducation,#listworkexperience,#projects {
+#listeducation,#listworkexperience,#projects {
 	font-family: 'Roboto Condensed', sans-serif;
 	text-align: center; 
 	list-style: none;
+}
+
+ul.listskills {
+	font-family: 'Roboto Condensed', sans-serif;
+	text-align: center; 
+	list-style: none;
+	padding-right: 2px;
+    padding-left: 0; 
 }
 
 form {

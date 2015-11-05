@@ -11,17 +11,17 @@ h1.headline {
 p.firstparagraph {
 	font-weight: bold;
 	font-family: 'Poiret One', cursive;
-	font-size: 18px
+	font-size: 24px
 }
 
 div.center {
     margin: auto;
-    width: 17.52%;
+    width: 20%;
     border:3px solid #164e5e;
 }
 
  .button { 
- 	font-size: 44px; 
+ 	font-size: 35px; 
  	color: rgb(255, 255, 255); 
  	background: rgb(0, 0, 0) none repeat scroll 0% 0%; 
  	width: 64px; 
@@ -66,8 +66,7 @@ form {
 img.firstpicture {
 	height: 180px;
  	width: auto;
- 	position: absolute
-    
+ 	position: center;
 }
 
 img.clicklinks {

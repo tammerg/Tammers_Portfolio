@@ -11,86 +11,31 @@ h1.headline {
 p.firstparagraph {
 	font-weight: bold;
 	font-family: 'Poiret One', cursive;
-<<<<<<< HEAD
 	font-size: 24px
-=======
-	font-size: 18px
->>>>>>> develop
 }
 
 div.center {
     margin: auto;
-<<<<<<< HEAD
     width: 20%;
-=======
-    width: 17.52%;
->>>>>>> develop
     border:3px solid #164e5e;
 }
 
  .button { 
-<<<<<<< HEAD
  	font-size: 35px; 
-=======
- 	font-size: 44px; 
->>>>>>> develop
  	color: rgb(255, 255, 255); 
  	background: rgb(0, 0, 0) none repeat scroll 0% 0%; 
  	width: 64px; 
  	height: 58px; 
  	border-radius: 13px; 
-<<<<<<< HEAD
  	border-style: none;
  	cursor:pointer;
  	margin: 0 auto;
  } 
- 
-#contact{
-	font-family: 'Roboto Condensed', sans-serif;
-	text-align: center;
-	text-decoration:underline; 
-	list-style: none;
-	margin: 0 auto;
-}
- #project, #skills1{
- 	text-align: center;
- }
-=======
- 	border-style: none;} 
->>>>>>> develop
-
-
-#skills {
-	font-family: 'Roboto Condensed', sans-serif;
-	text-align: center;
-	text-decoration:underline; 
-	list-style: none;
-	padding-right: 2px;
-}
-
-<<<<<<< HEAD
-#education,#workexperience,#build,{
-=======
-#education,#workexperience,#build,#contact {
->>>>>>> develop
-	font-family: 'Roboto Condensed', sans-serif;
-	text-align: center;
-	text-decoration:underline; 
-	list-style: none;
-}
-
-#listeducation,#listworkexperience,#projects {
+ ul.listskills {
 	font-family: 'Roboto Condensed', sans-serif;
 	text-align: center; 
 	list-style: none;
-}
-
-ul.listskills {
-	font-family: 'Roboto Condensed', sans-serif;
-	text-align: center; 
-	list-style: none;
-	padding-right: 2px;
-    padding-left: 0; 
+	margin: 0 auto; 
 }
 
 form {
@@ -100,12 +45,7 @@ form {
 img.firstpicture {
 	height: 180px;
  	width: auto;
-<<<<<<< HEAD
  	position: center;
-=======
- 	position: absolute
-    
->>>>>>> develop
 }
 
 img.clicklinks {
@@ -118,7 +58,6 @@ table.projects {
 	border-style: solid;
 	border-width: bold;
 	border-color: black;
-<<<<<<< HEAD
 	text-align: center;
 	margin: 0 auto;
 }
@@ -127,13 +66,13 @@ table.projects {
 	-moz-box-shadow: 0px 0px 0px 2px #9fb4f2;
 	-webkit-box-shadow: 0px 0px 0px 2px #9fb4f2;
 	box-shadow: 0px 0px 0px 2px #9fb4f2;
-	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #7892c2), color-stop(1, #476e9e));
-	background:-moz-linear-gradient(top, #7892c2 5%, #476e9e 100%);
-	background:-webkit-linear-gradient(top, #7892c2 5%, #476e9e 100%);
-	background:-o-linear-gradient(top, #7892c2 5%, #476e9e 100%);
-	background:-ms-linear-gradient(top, #7892c2 5%, #476e9e 100%);
-	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#7892c2', endColorstr='#476e9e',GradientType=0);
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #7892c2), color-stop(1, #040405));
+	background:-moz-linear-gradient(top, #7892c2 5%, #040405 100%);
+	background:-webkit-linear-gradient(top, #7892c2 5%, #040405 100%);
+	background:-o-linear-gradient(top, #7892c2 5%, #040405 100%);
+	background:-ms-linear-gradient(top, #7892c2 5%, #040405 100%);
+	background:linear-gradient(to bottom, #7892c2 5%, #040405 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#7892c2', endColorstr='#040405',GradientType=0);
 	background-color:#7892c2;
 	-moz-border-radius:10px;
 	-webkit-border-radius:10px;
@@ -144,53 +83,44 @@ table.projects {
 	color:#ffffff;
 	font-family:Arial;
 	font-size:19px;
-	padding:12px 10px;
+	padding:12px 37px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #283966;
-	margin: 0 auto;
-}
-
-.myButton1 {
-	-moz-box-shadow: 0px 0px 0px 2px #9fb4f2;
-	-webkit-box-shadow: 0px 0px 0px 2px #9fb4f2;
-	box-shadow: 0px 0px 0px 2px #9fb4f2;
-	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #7892c2), color-stop(1, #476e9e));
-	background:-moz-linear-gradient(top, #7892c2 5%, #476e9e 100%);
-	background:-webkit-linear-gradient(top, #7892c2 5%, #476e9e 100%);
-	background:-o-linear-gradient(top, #7892c2 5%, #476e9e 100%);
-	background:-ms-linear-gradient(top, #7892c2 5%, #476e9e 100%);
-	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#7892c2', endColorstr='#476e9e',GradientType=0);
-	background-color:#7892c2;
-	-moz-border-radius:10px;
-	-webkit-border-radius:10px;
-	border-radius:10px;
-	border:1px solid #4e6096;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:19px;
-	padding:12px 10px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #283966;
-	padding: 2;
-	margin: 0 auto;
-
 }
 .myButton:hover {
-	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #476e9e), color-stop(1, #7892c2));
-	background:-moz-linear-gradient(top, #476e9e 5%, #7892c2 100%);
-	background:-webkit-linear-gradient(top, #476e9e 5%, #7892c2 100%);
-	background:-o-linear-gradient(top, #476e9e 5%, #7892c2 100%);
-	background:-ms-linear-gradient(top, #476e9e 5%, #7892c2 100%);
-	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#476e9e', endColorstr='#7892c2',GradientType=0);
-	background-color:#476e9e;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #040405), color-stop(1, #7892c2));
+	background:-moz-linear-gradient(top, #040405 5%, #7892c2 100%);
+	background:-webkit-linear-gradient(top, #040405 5%, #7892c2 100%);
+	background:-o-linear-gradient(top, #040405 5%, #7892c2 100%);
+	background:-ms-linear-gradient(top, #040405 5%, #7892c2 100%);
+	background:linear-gradient(to bottom, #040405 5%, #7892c2 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#040405', endColorstr='#7892c2',GradientType=0);
+	background-color:#040405;
 }
 .myButton:active {
 	position:relative;
 	top:1px;
-=======
->>>>>>> develop
+}
+
+
+#contact {
+	font-family: 'Roboto Condensed', sans-serif;
+	text-align: center;
+	text-decoration:underline; 
+	list-style: none;
+	margin: 0 auto;
+}
+
+ #project,#skills1 {
+ 	text-align: center;
+ }
+
+#skills,#education,#workexperience,#build,#listeducation,#listworkexperience,#projects{
+	font-family: 'Roboto Condensed', sans-serif;
+	text-align: center; 
+	list-style: none;
+	margin: 0 auto;
+}
+#skills,#education,#workexperience{
+	text-decoration: underline;
 }

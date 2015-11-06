@@ -11,22 +11,35 @@ h1.headline {
 p.firstparagraph {
 	font-weight: bold;
 	font-family: 'Poiret One', cursive;
+<<<<<<< HEAD
 	font-size: 24px
+=======
+	font-size: 18px
+>>>>>>> develop
 }
 
 div.center {
     margin: auto;
+<<<<<<< HEAD
     width: 20%;
+=======
+    width: 17.52%;
+>>>>>>> develop
     border:3px solid #164e5e;
 }
 
  .button { 
+<<<<<<< HEAD
  	font-size: 35px; 
+=======
+ 	font-size: 44px; 
+>>>>>>> develop
  	color: rgb(255, 255, 255); 
  	background: rgb(0, 0, 0) none repeat scroll 0% 0%; 
  	width: 64px; 
  	height: 58px; 
  	border-radius: 13px; 
+<<<<<<< HEAD
  	border-style: none;
  	cursor:pointer;
  	margin: 0 auto;
@@ -42,6 +55,9 @@ div.center {
  #project, #skills1{
  	text-align: center;
  }
+=======
+ 	border-style: none;} 
+>>>>>>> develop
 
 
 #skills {
@@ -52,7 +68,11 @@ div.center {
 	padding-right: 2px;
 }
 
+<<<<<<< HEAD
 #education,#workexperience,#build,{
+=======
+#education,#workexperience,#build,#contact {
+>>>>>>> develop
 	font-family: 'Roboto Condensed', sans-serif;
 	text-align: center;
 	text-decoration:underline; 
@@ -80,7 +100,12 @@ form {
 img.firstpicture {
 	height: 180px;
  	width: auto;
+<<<<<<< HEAD
  	position: center;
+=======
+ 	position: absolute
+    
+>>>>>>> develop
 }
 
 img.clicklinks {
@@ -93,6 +118,7 @@ table.projects {
 	border-style: solid;
 	border-width: bold;
 	border-color: black;
+<<<<<<< HEAD
 	text-align: center;
 	margin: 0 auto;
 }
@@ -165,4 +191,6 @@ table.projects {
 .myButton:active {
 	position:relative;
 	top:1px;
+=======
+>>>>>>> develop
 }

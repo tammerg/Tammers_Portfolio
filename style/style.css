@@ -11,13 +11,16 @@ h1.headline {
 p.firstparagraph {
 	font-weight: bold;
 	font-family: 'Poiret One', cursive;
-	font-size: 24px
+	font-size: 24px;
+	text-align:center;
 }
 
-div.center {
+
+#center {
     margin: auto;
     width: 20%;
     border:3px solid #164e5e;
+    padding-left:10px;
 }
 
  .button { 
@@ -63,10 +66,12 @@ form {
 	text-align: center;
 }
 
-img.firstpicture {
+#firstpicture {
 	height: 180px;
  	width: auto;
  	position: center;
+ 	padding-left: 40px;
+ 	padding-right: 0px;
 }
 
 img.clicklinks {
